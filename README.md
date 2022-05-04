@@ -1,5 +1,6 @@
 **Project: video-player ▶️🚀**
 
+
 Custom Video Player using HTML5 video element and its JavaScript API with a custom design.🤖
 
 Project Requirements🚩
