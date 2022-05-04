@@ -10,7 +10,20 @@
 </head>
 <body>
     <h1>Custom Video Player</h1>
-    <video src="videos/Elixir in 100 Seconds.mp4"></video>
+    <!-- This is the video player. Poster attribute gives the thumbnail and source gives location of the actual video -->
+    <!-- id use for JS and class is use for CSS -->
+    <video src="videos/Elixir in 100 Seconds.mp4" id="video" class="screen" poster="images/elixir.png"></video>
+    <!-- Adding custom controls for the video player -->
+
+    <div class="controls">
+        <button class="btn" id="play">
+            <i class="fa fa-play fa-2x"></i>
+        </button>
+        <button class="btn" id="stop">
+            <i class="fa fa-stop fa-2x"></i>
+        </button>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
